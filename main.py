@@ -14,9 +14,9 @@ negative_list = [] #все отрицательные числа
 zero_list = [] #нули
 for i in arr:
     for j in i:
-        if j > 1:
+        if j > 0:
             positive_list.append(j)
-        if j < 1:
+        if j < 0:
             negative_list.append(j)
         if j == 0:
             zero_list.append(j)
