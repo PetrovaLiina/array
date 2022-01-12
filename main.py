@@ -1,6 +1,6 @@
 import random
 
-n: int = int(input('Введите число n: '))  # количество строк
+n = int(input('Введите число n: '))  # количество строк
 m = int(input('Введите число m: '))  # количество столбцов
 arr = []
 for i in range(n):
